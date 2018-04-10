@@ -33,8 +33,5 @@ To deploy this app to PWS, use these commands:
 
 ## Enjoy!
 
-The app should be available at https://hello-cloud-foundry-RANDOM.cfapps.io/greeting.
+The app should be available at https://hello-cloud-foundry-RANDOM.cfapps.io.
 Check command output or [Apps Manager](https://console.run.pivotal.io) to get the real endpoint.
-
-You can set your name by adding a query parameter 'name', such as
-https://hello-cloud-foundry-RANDOM.cfapps.io/greeting?name=Boss.
