@@ -1,6 +1,6 @@
 ---
 applications:
-- name: hello-cloud-foundry
+- name: hellocloudfoundry
   memory: 1G
   random-route: true
   path: app/target/com.github.alexandreroman.hellocloudfoundry-app.jar
