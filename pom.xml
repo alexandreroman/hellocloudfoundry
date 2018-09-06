@@ -8,7 +8,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.1.RELEASE</version>
+        <version>2.0.4.RELEASE</version>
     </parent>
 
     <groupId>com.github.alexandreroman.hellocloudfoundry</groupId>
@@ -18,7 +18,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <kotlin.version>1.2.31</kotlin.version>
+        <kotlin.version>1.2.61</kotlin.version>
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     </properties>
 
@@ -47,7 +47,7 @@
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-config</artifactId>
-                <version>2.0.0.M9</version>
+                <version>2.0.1.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>

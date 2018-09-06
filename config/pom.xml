@@ -14,7 +14,7 @@
     <artifactId>config</artifactId>
 
     <properties>
-        <kotlin.version>1.2.31</kotlin.version>
+        <kotlin.version>1.2.61</kotlin.version>
     </properties>
 
     <dependencies>
