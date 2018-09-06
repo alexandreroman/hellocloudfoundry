@@ -110,3 +110,6 @@ buildNumber.properties
 .idea
 .idea/vcs.xml
 *.iml
+
+.DS_Store
+
