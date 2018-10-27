@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.github.alexandreroman.hellocloudfoundry.app.impl
+package fr.alexandreroman.demos.hellocloudfoundry.impl
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity

@@ -6,7 +6,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.github.alexandreroman.hellocloudfoundry</groupId>
+        <groupId>fr.alexandreroman.demos.hellocloudfoundry</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
@@ -52,6 +52,7 @@
     </dependencies>
 
     <build>
+        <finalName>hellocloudfoundry</finalName>
         <sourceDirectory>${project.basedir}/src/main/kotlin</sourceDirectory>
         <resources>
             <resource>

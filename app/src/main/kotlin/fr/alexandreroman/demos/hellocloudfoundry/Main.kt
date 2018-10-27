@@ -16,13 +16,14 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.github.alexandreroman.hellocloudfoundry.app.impl
+package fr.alexandreroman.demos.hellocloudfoundry
 
-import org.springframework.boot.context.properties.ConfigurationProperties
-import org.springframework.cloud.context.config.annotation.RefreshScope
-import org.springframework.context.annotation.Configuration
+import org.springframework.boot.SpringApplication
+import org.springframework.boot.autoconfigure.SpringBootApplication
 
-@Configuration
-@ConfigurationProperties("greeting")
-@RefreshScope
-class GreetingConfig(var pattern: String = "Hello %s!")
+@SpringBootApplication
+class Application
+
+fun main(args: Array<String>) {
+    SpringApplication.run(Application::class.java, *args)
+}

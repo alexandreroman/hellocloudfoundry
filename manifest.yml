@@ -3,4 +3,4 @@ applications:
 - name: hellocloudfoundry
   memory: 1G
   random-route: true
-  path: app/target/com.github.alexandreroman.hellocloudfoundry-app.jar
+  path: app/target/hellocloudfoundry.jar
