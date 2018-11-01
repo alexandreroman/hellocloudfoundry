@@ -18,7 +18,6 @@
 
 package fr.alexandreroman.demos.hellocloudfoundry.impl
 
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.RequestMapping
@@ -27,10 +26,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 @RequestMapping("/greeting")
-class GreetingController {
-    @Autowired
-    private lateinit var config: GreetingConfig
-
+class GreetingController(private val config: GreetingConfig) {
     @GetMapping
     fun getGreeting(@RequestParam("name") name: String?): ResponseEntity<GreetingResponse> {
         val targetName = if (name.isNullOrEmpty()) "world" else name
