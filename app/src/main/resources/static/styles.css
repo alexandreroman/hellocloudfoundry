@@ -14,7 +14,7 @@ h1 {
 }
 
 #form #intro {
-  margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 #form {
@@ -53,6 +53,12 @@ h1 {
     cursor: pointer;
 }
 
-#form button:hover,.form button:active,.form button:focus {
+#form button:hover, .form button:active, .form button:focus {
     background: #0288D1;
+}
+
+#footer {
+    margin: 3em;
+    font-size: 80%;
+    color: #EEE;
 }
